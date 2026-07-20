@@ -1,0 +1,17 @@
+# CTF VM / 취약 환경에서 흘러나오기 쉬운 민감·불필요 파일
+**/flag.txt
+**/flag*.txt
+**/*.pem
+**/*.key
+!**/*.pub.key
+**/id_rsa
+**/id_rsa.pub
+**/.env
+**/*.log
+**/*.pyc
+__pycache__/
+node_modules/
+*.ova
+*.vmdk
+*.vdi
+*.qcow2
